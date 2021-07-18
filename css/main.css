@@ -316,9 +316,9 @@ i {
   box-shadow: var(--box-shadow);
 }
 
-.page-content .grid > article:first-child,
-.page-content .grid > article:last-child {
+.page-content .grid > article:first-child {
   grid-column: 1 / -1;
+  height: 400px;
 }
 
 
@@ -343,10 +343,6 @@ i {
     margin: 0;
   }
 
-  .page-header .logo svg {
-    width: 83px;
-    height: 35px;
-  }
 
   .page-header .toggle-mob-menu {
     display: block;
@@ -382,6 +378,7 @@ i {
 
   .page-content .grid {
     grid-gap: 10px;
+
   }
 
   .search-and-user {
@@ -407,6 +404,11 @@ i {
 
   .search-and-user .admin-profile svg {
     fill: var(--white);
+  }
+
+  .page-content .grid > article:first-child {
+    grid-column: 1 / -1;
+    height: 200px;
   }
 }
 
@@ -462,6 +464,11 @@ i {
     left: 40px;
     width: calc(100% - 40px);
   }
+}
+
+#graficaGanacias{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
